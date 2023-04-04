@@ -1,0 +1,135 @@
+  @import url('https://fonts.googleapis.com/css2?family=Cousine&family=Fraunces:wght@100&family=Mallanna&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cousine&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cousine&family=Josefin+Sans:wght@100&display=swap');
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    margin: 0%;
+}
+
+/*Formatação da navbar*/
+.header {
+    width: 100%;
+    background-color: #46472a;
+    border-bottom: solid 0.5px #ffffff;
+}
+li{
+    font-family: 'Fraunces', serif;
+    font-size: 18pt;
+    margin-left: 8px;
+}
+
+/*Cor do titulo vinTech*/
+
+/*Div centralizadora - formatação global*/
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+/*Formatação do header container*/
+.header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Formatação da navbar*/
+.navbar {
+    color: #ffffff;
+    list-style: none;
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+/*Formatação do banner*/
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/HomeAgoraVai.png);
+    background-attachment: fixed;
+    background-size:cover;
+    
+}
+
+.banner .container {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: aliceblue;
+    flex-direction: column;
+}
+.banner h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 98px;
+    margin: 0;
+}
+.banner p{
+    font-family: 'Comfortaa', cursive;
+    font-size: 32px;
+
+}
+
+/*Inicio botão entrar*/
+.entrar{
+    background-color: #ffffff;
+    width: 20%;
+    height: 8%;
+    border: none;
+    color: #C8A287;
+    font-size: 20px;
+}
+/*Final botão entrar*/
+/*Final do banner*/
+
+/*Inicio tela saiba mais*/
+.saibaMais{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/About.png);
+    background-attachment: fixed;
+    background-size:cover;
+}
+.saibaMais .container{
+    justify-content: space-between;
+    height: 100%;
+    width: 95%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 30px;
+}
+#item1{
+    color: #5105BD;
+    width: 50%;
+    text-align: center;
+    background-color: #15032e;
+}
+#item2{
+    background-color: aquamarine;
+    width: 60%;
+    text-align: center;
+    margin-top: 5%;
+}
+/*Final tela saiba mais*/
+
+
+/*Final social*/
+/*Inicio*/
+.footer .container {
+    width: 100%;
+    height: 100%;
+    background-color: #32a7b1;
+    justify-content: center;
+}
