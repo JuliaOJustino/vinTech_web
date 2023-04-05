@@ -162,7 +162,7 @@ li{
 .simule .container{
     justify-content: space-between;
     height: 100%;
-    width: 98%; 
+    width: 100%; 
 }
 
 .simule .txt_simule{
@@ -174,17 +174,14 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    font-size: 30px;
 }
 
 .simule .txt_simule h1{
     text-align: right;
     margin-right: 60px;
     font-size: 80px;
-}
-
-.simule .txt_simule{
-    text-align: center;
-    font-size: 30px;
 }
 
 .simule p{
@@ -257,7 +254,6 @@ li{
 .feito_voce .texto span{
     font-size: 30px;
 }
-
 
 .feito_voce .Ncards{
     width: 100%;
