@@ -58,7 +58,6 @@ li{
     background-image: url(../img/HomeAgoraVai.png);
     background-attachment: fixed;
     background-size:cover;
-    
 }
 
 .banner .container {
@@ -122,10 +121,15 @@ li{
 }
 
 #item2{
+    color: #393a22;
     font-size: 34px;
     font-weight: 400;
     padding-top: 30px;
     width: 750px;
+}
+
+#item2 h2{
+    color: #383a24;
 }
 
 .textoCol2{
@@ -133,6 +137,7 @@ li{
 }
 
 #item3{
+    color: #393a22;
     font-size: 34px;
     font-weight: 400;
     padding-top: 30px;
@@ -140,13 +145,22 @@ li{
     width: 790px;
 }
 
+#item3 h2{
+    color: #383a24;
+}
+
 #item4{
+    color: #393a22;
     font-size: 34px;
     font-weight: 400;
     width: 750px;
     padding-left: 30px;
     border: 3px solid #5105BD;
     border-radius: 0px 50px;
+}
+
+#item4 h2{
+    color: #383a24;
 }
 
 /*Final tela saiba mais*/
@@ -156,7 +170,10 @@ li{
     display: flex;
     height: 100%;
     width: 100%;
-    background-color: #32a7b1;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(../img/imgVintech/uva_coluna.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 40% 100vh;
 }
 
 .simule .container{
@@ -169,7 +186,10 @@ li{
     text-align: center;
     height: 100vh;
     width: 60%;
-    background-color: #5105BD;
+    background-image: url(../img/imgVintech/VinTech.png);
+    background-attachment: fixed;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
     font-size: 30px;
     display: flex;
     flex-direction: column;
@@ -178,14 +198,18 @@ li{
     font-size: 30px;
 }
 
-.simule .txt_simule h1{
+.simule .txt_simule h2{
     text-align: right;
+    color: white;
     margin-right: 60px;
-    font-size: 80px;
+    width: 100%;
+    font-size: 100px;
 }
 
 .simule p{
-    width: 600px;
+    width: 800px;
+    font-size: 40px;
+    color: #393a22;
 }
 
 .simule span{
@@ -196,7 +220,7 @@ li{
 .simule .input{
     background-color: #ffffff;
     display: flex;
-    width: 610px;
+    width: 800px;
     height: 50px;
     border-radius: 100px;
     justify-content: space-between;
@@ -226,6 +250,7 @@ li{
     border-radius: 100px;
     border: 3px solid black;
     font-size: 30px;
+    background-color: rgb(255, 255, 206);
 }
 /* Final simule aqui */
 
@@ -234,7 +259,9 @@ li{
 .feito_voce{
     height: 100vh;
     width: 100%;
-    background-color: #6932b1;
+    background-image: url(../img/imgVintech/vintech_bege.png);
+    background-attachment: fixed;
+    background-size: 100% 100vh;
 }
 
 .feito_voce .container{
@@ -249,10 +276,13 @@ li{
 
 .feito_voce .texto h1{
     font-size: 50px;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .feito_voce .texto span{
     font-size: 30px;
+    color: #705f53;
 }
 
 .feito_voce .Ncards{
@@ -265,11 +295,13 @@ li{
     text-align: center;
     height: 500px;
     width: 300px;
-    background-color: #C8A287;
+    background-color: #ffffff;
 }
 
 .feito_voce h2{
     font-size: 50px;
+    color: #ddbea8;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .feito_voce p{
@@ -284,7 +316,12 @@ li{
     display: flex;
     height: 100%;
     width: 100%;
-    background-color: #32a7b1;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(../img/imgVintech/uva_vermelha.jpg);
+    background-color: black;
+    background-attachment: fixed;
+    background-size: 90% 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .fale_conosco .container{
@@ -296,7 +333,10 @@ li{
 .fale_conosco .txt_fale{
     height: 100vh;
     width: 55%;
-    background-color: rgb(255, 253, 234);
+    background-image:url(../img/imgVintech/vintech_branco.png);
+    background-attachment: fixed;
+    background-size: 90% 100vh;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -306,7 +346,8 @@ li{
 }
 
 .fale_conosco .txt_fale h2{
-    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
     color: #c03124;
 }
 
@@ -334,11 +375,8 @@ li{
 }
 
 .fale_conosco span{
-    margin-top: 200px;
-    width: 75%;
-    text-align: center;
+    font-size: 30px;
 }
-
 /*Final social*/
 /*Inicio*/
 .footer .container {
@@ -346,4 +384,19 @@ li{
     height: 100vh;
     background-color: #32a7b1;
     justify-content: center;
+}
+
+
+/* palavras especificas */
+
+.roxo_escuro{
+    color: #28015e;
+}
+
+.roxo{
+    color: #5105BD;
+}
+
+.escuro{
+    color: #383a24;;
 }
