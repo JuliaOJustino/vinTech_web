@@ -280,6 +280,69 @@ li{
     font-size: 30px;
 }
 
+/* Final Feito para você */
+
+/* Começo Fale Conosco */
+
+.fale_conosco{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #32a7b1;
+}
+
+.fale_conosco .container{
+    justify-content: start;
+    height: 100%;
+    width: 100%; 
+}
+
+.fale_conosco .txt_fale{
+    height: 100vh;
+    width: 55%;
+    background-color: rgb(255, 253, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 60px;
+    color: rgb(63, 63, 63);
+}
+
+.fale_conosco .txt_fale h2{
+    font-size: 70px;
+    color: #c03124;
+}
+
+.fale_conosco p{
+    width: 600px;
+    font-size: 40px;
+} 
+
+.fale_conosco .txt_fale a{
+    color: rgb(63, 63, 63);;
+    font-size: 40px;
+}
+
+.fale_conosco img{
+    height: 50px;
+    width: 50px;
+    color: #c03124;
+}
+
+.fale_conosco .icones_fale{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.fale_conosco span{
+    margin-top: 200px;
+    width: 75%;
+    text-align: center;
+}
+
 /*Final social*/
 /*Inicio*/
 .footer .container {
