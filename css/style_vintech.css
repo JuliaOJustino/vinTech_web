@@ -18,13 +18,13 @@ body {
 .header {
     width: 100%;
     background-color: #46472a;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1% solid #ffffff;
 }
 
 li{
     font-family: 'Fraunces', serif;
-    font-size: 18pt;
-    margin-left: 50px;
+    font-size:3vh;
+    margin-left: 2vh;
 }
 
 /*Cor do titulo vinTech*/
@@ -47,7 +47,7 @@ li{
     color: #ffffff;
     list-style: none;
     display: flex;
-    width: 700px;
+    width: 70vh;
     justify-content: space-around;
 }
 
@@ -70,13 +70,13 @@ li{
 
 .banner h1{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 98px;
+    font-size: 10vh;
     margin: 0;
 }
 
 .banner p{
     font-family: 'Comfortaa', cursive;
-    font-size: 32px;
+    font-size: 5vh;
 
 }
 
@@ -87,7 +87,7 @@ li{
     height: 8%;
     border: none;
     color: #C8A287;
-    font-size: 35px;
+    font-size: 5vh;
 }
 
 /*Final botão entrar*/
@@ -115,21 +115,22 @@ li{
 
 #item1{
     color: #5105BD;
-    padding-top: 70px;
-    font-size: 34px;
-    width: 750px;
+    padding-top: 1vh;
+    font-size: 4vh;
+    width: 80vh;
 }
 
 #item2{
     color: #393a22;
-    font-size: 34px;
+    font-size: 3.5vh;;
     font-weight: 400;
     padding-top: 30px;
-    width: 750px;
+    width: 70vh;
 }
 
 #item2 h2{
     color: #383a24;
+    font-size: 5vh;
 }
 
 .textoCol2{
@@ -138,11 +139,11 @@ li{
 
 #item3{
     color: #393a22;
-    font-size: 34px;
+    font-size: 3.5vh;
     font-weight: 400;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 790px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 80vh;
 }
 
 #item3 h2{
@@ -151,12 +152,12 @@ li{
 
 #item4{
     color: #393a22;
-    font-size: 34px;
+    font-size: 3.2vh;
     font-weight: 400;
-    width: 750px;
-    padding-left: 30px;
-    border: 3px solid #5105BD;
-    border-radius: 0px 50px;
+    width: 90vh;
+    padding-left: 5vh;
+    border: 0.5vh solid #5105BD;
+    border-radius: 0vh 5vh;
 }
 
 #item4 h2{
@@ -172,7 +173,6 @@ li{
     width: 100%;
     background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(../img/imgVintech/uva_coluna.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 40% 100vh;
 }
 
@@ -190,67 +190,66 @@ li{
     background-attachment: fixed;
     background-size: 100% 100vh;
     background-repeat: no-repeat;
-    font-size: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 3vh;
 }
 
 .simule .txt_simule h2{
     text-align: right;
     color: white;
-    margin-right: 60px;
+    margin-right: 5vh;
     width: 100%;
-    font-size: 100px;
+    font-size: 7vh;
 }
 
 .simule p{
-    width: 800px;
-    font-size: 40px;
+    width: 90vh;
+    font-size: 4.5vh;
     color: #393a22;
 }
 
 .simule span{
-    width: 600px;
+    width: 40vh;
     text-align: left;
 }
 
 .simule .input{
     background-color: #ffffff;
     display: flex;
-    width: 800px;
-    height: 50px;
-    border-radius: 100px;
+    width: 90vh;
+    height: 7.9vh;
+    border-radius: 10vh;
     justify-content: space-between;
 }
 
 .simule input{
     border: 0px;
-    border-radius: 100px;
-    width: 660px;
-    height: 48px;
-    font-size: 35px;
+    border-radius: 10vh;
+    width: 79vh;
+    height: 7.3vh;
+    font-size: 5vh;
 }
 
 .simule .quadrado{
     background-color: gray;
-    border-radius: 20px;
-    height: 50px;
-    width: 60px;
-    font-size: 25px;
+    border-radius: 4vh;
+    height: 8vh;
+    width: 10vh;
+    font-size: 3vh;
     text-align: center;
-    line-height: 50px;
+    line-height: 8vh;
 }
 
 .simule button{
-    height: 100px;
-    width: 300px;
-    border-radius: 100px;
-    border: 3px solid black;
-    font-size: 30px;
-    background-color: rgb(255, 255, 206);
+    height: 10vh;
+    width: 50vh;
+    border-radius: 6vh;
+    border: 0.4vh solid black;
+    font-size: 3vh;
+    background-color: rgb(253, 253, 233);
 }
 /* Final simule aqui */
 
@@ -275,13 +274,13 @@ li{
 }
 
 .feito_voce .texto h1{
-    font-size: 50px;
+    font-size: 7vh;
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .feito_voce .texto span{
-    font-size: 30px;
+    font-size: 4vh;
     color: #705f53;
 }
 
@@ -292,20 +291,21 @@ li{
 }
 
 .feito_voce .card{
+    margin-top: 5vh;
     text-align: center;
-    height: 500px;
-    width: 300px;
+    height: 55vh;
+    width: 35vh; 
     background-color: #ffffff;
 }
 
 .feito_voce h2{
-    font-size: 50px;
+    font-size: 4vh;
     color: #ddbea8;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .feito_voce p{
-    font-size: 30px;
+    font-size: 3vh;
 }
 
 /* Final Feito para você */
@@ -341,29 +341,29 @@ li{
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    padding-left: 60px;
+    padding-left: 10vh;
     color: rgb(63, 63, 63);
 }
 
 .fale_conosco .txt_fale h2{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 90px;
+    font-size: 10vh;
     color: #c03124;
 }
 
 .fale_conosco p{
-    width: 600px;
-    font-size: 40px;
+    width: 40vh;
+    font-size: 4vh;
 } 
 
 .fale_conosco .txt_fale a{
-    color: rgb(63, 63, 63);;
-    font-size: 40px;
+    color: rgb(63, 63, 63);
+    font-size: 4vh;
 }
 
 .fale_conosco img{
-    height: 50px;
-    width: 50px;
+    height: 7vh;
+    width: 7vh;
     color: #c03124;
 }
 
@@ -375,7 +375,7 @@ li{
 }
 
 .fale_conosco span{
-    font-size: 30px;
+    font-size: 4vh;
 }
 /*Final social*/
 /*Inicio*/
