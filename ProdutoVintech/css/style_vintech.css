@@ -389,6 +389,7 @@ li{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    margin-bottom: 8vh;
 }
 
 .fale_conosco span{
@@ -410,9 +411,9 @@ li{
     color: #28015e;
 }
 
-.roxo{
-    margin-top: 25vh;
-    color: #1a013b;
+span.roxo{
+    color:#303121;
+    font-size: 4vh;
 }
 
 .escuro{
