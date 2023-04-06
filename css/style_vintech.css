@@ -296,6 +296,16 @@ li{
     height: 55vh;
     width: 35vh; 
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feito_voce .detalhe{
+    background-image: url(../img/detalhe.png);
+    background-size: cover;
+    width: 35vh;
+    height: 7vh;
 }
 
 .feito_voce h2{
