@@ -4,6 +4,7 @@
 
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden; 
   }
   * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -195,8 +196,7 @@ li{
     height: 100vh;
     width: 60%;
     background-image: url(../img/imgVintech/VinTech.png);
-    background-attachment: fixed;
-    background-size: 100% 100vh;
+    background-size: 200% 100vh;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -206,12 +206,12 @@ li{
 }
 
 .simule .txt_simule h2{
-    text-align: right;
+    text-align: left;
     color: white;
-    margin-right: 11vh;
+    margin-left: 11vh;
     width: 100%;
     font-size: 9vh;
-    margin-bottom: 0px;
+    margin-bottom: 3vh;
 }
 
 .simule p{
@@ -268,7 +268,6 @@ li{
     height: 100vh;
     width: 100%;
     background-image: url(../img/imgVintech/vintech_bege.png);
-    background-attachment: fixed;
     background-size: 100% 100vh;
 }
 
@@ -412,7 +411,8 @@ li{
 }
 
 .roxo{
-    color: #5105BD;
+    margin-top: 25vh;
+    color: #1a013b;
 }
 
 .escuro{
