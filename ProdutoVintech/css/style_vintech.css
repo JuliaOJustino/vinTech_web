@@ -1,7 +1,11 @@
   @import url('https://fonts.googleapis.com/css2?family=Cousine&family=Fraunces:wght@100&family=Mallanna&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cousine&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Cousine&family=Josefin+Sans:wght@100&display=swap');
-* {
+
+  html {
+    scroll-behavior: smooth;
+  }
+  * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
